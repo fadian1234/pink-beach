@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(160deg, #fce4ec 0%, #e0f7fa 100%);
+  font-family: Arial, sans-serif;
+}
+
+#header {
+  background: linear-gradient(135deg, #c2607a, #5bb8d4);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#wrapper {
+  display: flex;
+  min-height: 80vh;
+}
+
+#sidebar {
+  width: 150px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #fce4ec 0%, #e0f7fa 100%);
+  border-right: 2px solid #d9a0aa;
+  padding: 15px;
+}
+
+#sidebar h3 {
+  font-size: 12px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar ul li {
+  margin-bottom: 8px;
+}
+
+#sidebar ul li a {
+  text-decoration: none;
+  color: #b5606f;
+  font-size: 15px;
+  display: block;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+#sidebar ul li a:hover,
+#sidebar ul li a.active {
+  background: linear-gradient(135deg, #c2607a, #5bb8d4);
+  color: white;
+}
+
+#content {
+  flex: 1;
+  padding: 30px;
+  background: linear-gradient(160deg, #ffffff 60%, #e8f8f5 100%);
+}
+
+#content h2 {
+  color: #b5606f;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+#content img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+#content p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+#content ul {
+  font-size: 14px;
+  color: #555;
+  line-height: 2;
+  padding-left: 20px;
+}
+
+#footer {
+  background: linear-gradient(135deg, #5bb8d4, #c2607a);
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 13px;
+}
+
+#content h3 {
+  color: #b5606f;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+#content table {
+  width: 100%;
+  font-size: 14px;
+  color: #555;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+#content table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #f0e0e4;
+}
+
+#content ul li a {
+  text-decoration: none;
+  color: #b5606f;
+  font-size: 15px;
+}
+
+#content ul li a:hover {
+  color: #7a3045;
+}
